@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+} 
+
+body {
+    background: linear-gradient(rgb(50, 150, 255), rgb(50, 60, 220));
+    color: whitesmoke;
+    /*display: flex;*/
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#main-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+    right: 0;
+    bottom: 200px;
+    left: 0;
+    height: 200px;
+}
+
+#welcome-text {
+    font-size: 96px;
+    text-align: center;
+    text-shadow: 0px 0px 3px black, 0px 0px 5px whitesmoke; 
+}
+
+#welcome-intro {
+    font-size: 26px;
+    text-align: center;
+}
+
+#temperature-container {
+    position: relative;
+    align-items: center;
+    top: 40%;
+}
+
+#temperature-icon {
+    text-align: center;
+}
+
+#temperature-value {
+    font-size: 26px;
+    text-align: center;
+}
